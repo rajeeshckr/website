@@ -45,14 +45,21 @@ up Python using [Miniconda](https://conda.io/miniconda.html):
     and make sure you select the option to
     **Add Miniconda to my PATH environment variable** during the installation.
 
-    * MacOS: Download the 
+    * MacOS:
+      For intel based system, download the 
     [installer](https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh)
     and run the following command:
 
         ```bash
         bash Miniconda3-latest-MacOSX-x86_64.sh
         ```
+      For arm based system (Apple M chips), download the 
+    [installer](https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-arm64.sh)
+    and run the following command:
 
+        ```bash
+        bash Miniconda3-latest-MacOSX-arm64.sh
+        ```
 1. Check that the `conda` command is available:
 
     ```bash
